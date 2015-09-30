@@ -13,6 +13,20 @@
 		A3944D4A1BBB6DE5000CD0A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3944D481BBB6DE5000CD0A1 /* Main.storyboard */; };
 		A3944D4C1BBB6DE5000CD0A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3944D4B1BBB6DE5000CD0A1 /* Assets.xcassets */; };
 		A3944D4F1BBB6DE5000CD0A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3944D4D1BBB6DE5000CD0A1 /* LaunchScreen.storyboard */; };
+		A3944D591BBB6E8A000CD0A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3944D581BBB6E8A000CD0A1 /* QuartzCore.framework */; };
+		A3944D5B1BBB6E98000CD0A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3944D5A1BBB6E98000CD0A1 /* CoreGraphics.framework */; };
+		A3944D5D1BBB6EAF000CD0A1 /* colorPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A3944D5C1BBB6EAF000CD0A1 /* colorPicker.bundle */; settings = {ASSET_TAGS = (); }; };
+		A3944D701BBB6EC2000CD0A1 /* NEOColorPickerBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3944D5F1BBB6EC2000CD0A1 /* NEOColorPickerBaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A3944D711BBB6EC2000CD0A1 /* NEOColorPickerFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3944D611BBB6EC2000CD0A1 /* NEOColorPickerFavoritesViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A3944D721BBB6EC2000CD0A1 /* NEOColorPickerFavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3944D621BBB6EC2000CD0A1 /* NEOColorPickerFavoritesViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		A3944D731BBB6EC2000CD0A1 /* NEOColorPickerGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3944D641BBB6EC2000CD0A1 /* NEOColorPickerGradientView.m */; settings = {ASSET_TAGS = (); }; };
+		A3944D741BBB6EC2000CD0A1 /* NEOColorPickerHSLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3944D661BBB6EC2000CD0A1 /* NEOColorPickerHSLViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A3944D751BBB6EC2000CD0A1 /* NEOColorPickerHSLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3944D671BBB6EC2000CD0A1 /* NEOColorPickerHSLViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		A3944D761BBB6EC2000CD0A1 /* NEOColorPickerHueGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3944D691BBB6EC2000CD0A1 /* NEOColorPickerHueGridViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A3944D771BBB6EC2000CD0A1 /* NEOColorPickerHueGridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3944D6A1BBB6EC2000CD0A1 /* NEOColorPickerHueGridViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		A3944D781BBB6EC2000CD0A1 /* NEOColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3944D6C1BBB6EC2000CD0A1 /* NEOColorPickerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A3944D791BBB6EC2000CD0A1 /* NEOColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3944D6D1BBB6EC2000CD0A1 /* NEOColorPickerViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		A3944D7A1BBB6EC2000CD0A1 /* UIColor+NEOColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A3944D6F1BBB6EC2000CD0A1 /* UIColor+NEOColor.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +40,27 @@
 		A3944D4B1BBB6DE5000CD0A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3944D4E1BBB6DE5000CD0A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3944D501BBB6DE5000CD0A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3944D581BBB6E8A000CD0A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A3944D5A1BBB6E98000CD0A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3944D5C1BBB6EAF000CD0A1 /* colorPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = colorPicker.bundle; sourceTree = "<group>"; };
+		A3944D5E1BBB6EC2000CD0A1 /* NEOColorPickerBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerBaseViewController.h; sourceTree = "<group>"; };
+		A3944D5F1BBB6EC2000CD0A1 /* NEOColorPickerBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerBaseViewController.m; sourceTree = "<group>"; };
+		A3944D601BBB6EC2000CD0A1 /* NEOColorPickerFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerFavoritesViewController.h; sourceTree = "<group>"; };
+		A3944D611BBB6EC2000CD0A1 /* NEOColorPickerFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerFavoritesViewController.m; sourceTree = "<group>"; };
+		A3944D621BBB6EC2000CD0A1 /* NEOColorPickerFavoritesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOColorPickerFavoritesViewController.xib; sourceTree = "<group>"; };
+		A3944D631BBB6EC2000CD0A1 /* NEOColorPickerGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerGradientView.h; sourceTree = "<group>"; };
+		A3944D641BBB6EC2000CD0A1 /* NEOColorPickerGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerGradientView.m; sourceTree = "<group>"; };
+		A3944D651BBB6EC2000CD0A1 /* NEOColorPickerHSLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerHSLViewController.h; sourceTree = "<group>"; };
+		A3944D661BBB6EC2000CD0A1 /* NEOColorPickerHSLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerHSLViewController.m; sourceTree = "<group>"; };
+		A3944D671BBB6EC2000CD0A1 /* NEOColorPickerHSLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOColorPickerHSLViewController.xib; sourceTree = "<group>"; };
+		A3944D681BBB6EC2000CD0A1 /* NEOColorPickerHueGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerHueGridViewController.h; sourceTree = "<group>"; };
+		A3944D691BBB6EC2000CD0A1 /* NEOColorPickerHueGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerHueGridViewController.m; sourceTree = "<group>"; };
+		A3944D6A1BBB6EC2000CD0A1 /* NEOColorPickerHueGridViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOColorPickerHueGridViewController.xib; sourceTree = "<group>"; };
+		A3944D6B1BBB6EC2000CD0A1 /* NEOColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerViewController.h; sourceTree = "<group>"; };
+		A3944D6C1BBB6EC2000CD0A1 /* NEOColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerViewController.m; sourceTree = "<group>"; };
+		A3944D6D1BBB6EC2000CD0A1 /* NEOColorPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOColorPickerViewController.xib; sourceTree = "<group>"; };
+		A3944D6E1BBB6EC2000CD0A1 /* UIColor+NEOColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NEOColor.h"; sourceTree = "<group>"; };
+		A3944D6F1BBB6EC2000CD0A1 /* UIColor+NEOColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NEOColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3944D5B1BBB6E98000CD0A1 /* CoreGraphics.framework in Frameworks */,
+				A3944D591BBB6E8A000CD0A1 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +95,8 @@
 		A3944D3E1BBB6DE5000CD0A1 /* ColorPicker */ = {
 			isa = PBXGroup;
 			children = (
+				A3944D571BBB6E79000CD0A1 /* libs */,
+				A3944D561BBB6E59000CD0A1 /* source */,
 				A3944D421BBB6DE5000CD0A1 /* AppDelegate.h */,
 				A3944D431BBB6DE5000CD0A1 /* AppDelegate.m */,
 				A3944D451BBB6DE5000CD0A1 /* ViewController.h */,
@@ -77,6 +116,41 @@
 				A3944D401BBB6DE5000CD0A1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3944D561BBB6E59000CD0A1 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				A3944D5C1BBB6EAF000CD0A1 /* colorPicker.bundle */,
+				A3944D5E1BBB6EC2000CD0A1 /* NEOColorPickerBaseViewController.h */,
+				A3944D5F1BBB6EC2000CD0A1 /* NEOColorPickerBaseViewController.m */,
+				A3944D601BBB6EC2000CD0A1 /* NEOColorPickerFavoritesViewController.h */,
+				A3944D611BBB6EC2000CD0A1 /* NEOColorPickerFavoritesViewController.m */,
+				A3944D621BBB6EC2000CD0A1 /* NEOColorPickerFavoritesViewController.xib */,
+				A3944D631BBB6EC2000CD0A1 /* NEOColorPickerGradientView.h */,
+				A3944D641BBB6EC2000CD0A1 /* NEOColorPickerGradientView.m */,
+				A3944D651BBB6EC2000CD0A1 /* NEOColorPickerHSLViewController.h */,
+				A3944D661BBB6EC2000CD0A1 /* NEOColorPickerHSLViewController.m */,
+				A3944D671BBB6EC2000CD0A1 /* NEOColorPickerHSLViewController.xib */,
+				A3944D681BBB6EC2000CD0A1 /* NEOColorPickerHueGridViewController.h */,
+				A3944D691BBB6EC2000CD0A1 /* NEOColorPickerHueGridViewController.m */,
+				A3944D6A1BBB6EC2000CD0A1 /* NEOColorPickerHueGridViewController.xib */,
+				A3944D6B1BBB6EC2000CD0A1 /* NEOColorPickerViewController.h */,
+				A3944D6C1BBB6EC2000CD0A1 /* NEOColorPickerViewController.m */,
+				A3944D6D1BBB6EC2000CD0A1 /* NEOColorPickerViewController.xib */,
+				A3944D6E1BBB6EC2000CD0A1 /* UIColor+NEOColor.h */,
+				A3944D6F1BBB6EC2000CD0A1 /* UIColor+NEOColor.m */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		A3944D571BBB6E79000CD0A1 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				A3944D5A1BBB6E98000CD0A1 /* CoreGraphics.framework */,
+				A3944D581BBB6E8A000CD0A1 /* QuartzCore.framework */,
+			);
+			name = libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +211,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3944D4F1BBB6DE5000CD0A1 /* LaunchScreen.storyboard in Resources */,
+				A3944D771BBB6EC2000CD0A1 /* NEOColorPickerHueGridViewController.xib in Resources */,
 				A3944D4C1BBB6DE5000CD0A1 /* Assets.xcassets in Resources */,
+				A3944D721BBB6EC2000CD0A1 /* NEOColorPickerFavoritesViewController.xib in Resources */,
+				A3944D751BBB6EC2000CD0A1 /* NEOColorPickerHSLViewController.xib in Resources */,
 				A3944D4A1BBB6DE5000CD0A1 /* Main.storyboard in Resources */,
+				A3944D791BBB6EC2000CD0A1 /* NEOColorPickerViewController.xib in Resources */,
+				A3944D5D1BBB6EAF000CD0A1 /* colorPicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +229,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3944D471BBB6DE5000CD0A1 /* ViewController.m in Sources */,
+				A3944D781BBB6EC2000CD0A1 /* NEOColorPickerViewController.m in Sources */,
+				A3944D7A1BBB6EC2000CD0A1 /* UIColor+NEOColor.m in Sources */,
+				A3944D731BBB6EC2000CD0A1 /* NEOColorPickerGradientView.m in Sources */,
 				A3944D441BBB6DE5000CD0A1 /* AppDelegate.m in Sources */,
+				A3944D701BBB6EC2000CD0A1 /* NEOColorPickerBaseViewController.m in Sources */,
+				A3944D741BBB6EC2000CD0A1 /* NEOColorPickerHSLViewController.m in Sources */,
+				A3944D711BBB6EC2000CD0A1 /* NEOColorPickerFavoritesViewController.m in Sources */,
+				A3944D761BBB6EC2000CD0A1 /* NEOColorPickerHueGridViewController.m in Sources */,
 				A3944D411BBB6DE5000CD0A1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +349,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = ColorPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geeksdobyte.ColorPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +362,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = ColorPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geeksdobyte.ColorPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
